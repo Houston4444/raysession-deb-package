@@ -1,0 +1,11 @@
+Source: raysession
+Section: sound
+Priority: optional
+Maintainer: houston4444 <picotmathieu@gmail.com>
+Build-Depends: debhelper (>=9), pkg-config, python3-pyqt5, pyqt5-dev-tools, qt4-linguist-tools
+Standards-Version: 3.9.6
+
+Package: raysession
+Architecture: all
+Depends: python3-liblo, python3-pyqt5
+Description: Session Manager for Audio Softwares as Ardour, Carla, QTractor, Hydrogen, Guitarix...
